@@ -1,0 +1,21 @@
+.productsList {
+	font-family: "Inter", sans-serif;
+	display: flex;
+	flex-direction: row;
+	overflow: overlay;
+	box-sizing: content-box;
+	justify-content: flex-start;
+}
+@media screen and (min-width: 1024px) {
+	.productsList {
+		flex-wrap: wrap;
+		flex-direction: row;
+        width: 636px;
+        margin: 9px 0px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.productsList{
+		width: 954px;
+	}
+}
